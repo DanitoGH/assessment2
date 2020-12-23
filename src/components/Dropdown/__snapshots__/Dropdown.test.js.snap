@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<FormControl
+  as="select"
+  className="mt-1 mb-2"
+  disabled={true}
+  onChange={[Function]}
+  value={0}
+>
+  <option
+    value={0}
+  >
+    0
+  </option>
+</FormControl>
+`;

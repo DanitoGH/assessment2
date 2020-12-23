@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <Container
+    className="mt-5"
+    fluid={false}
+  >
+    <NotificationContainer
+      enterTimeout={400}
+      leaveTimeout={400}
+    />
+    <Row
+      noGutters={false}
+    >
+      <Col>
+        <RoomsCard
+          onChanged={[Function]}
+          onChecked={[Function]}
+          roomNumber={1}
+        />
+      </Col>
+      <Col>
+        <RoomsCard
+          adultRoomValue=""
+          childrenRoomValue=""
+          onChanged={[Function]}
+          onChecked={[Function]}
+          roomChecked={false}
+          roomNumber={2}
+        />
+      </Col>
+      <Col>
+        <RoomsCard
+          adultRoomValue=""
+          childrenRoomValue=""
+          onChanged={[Function]}
+          onChecked={[Function]}
+          roomChecked={false}
+          roomNumber={3}
+        />
+      </Col>
+      <Col>
+        <RoomsCard
+          adultRoomValue=""
+          childrenRoomValue=""
+          onChanged={[Function]}
+          onChecked={[Function]}
+          roomChecked={false}
+          roomNumber={4}
+        />
+      </Col>
+    </Row>
+    <Row
+      className="mt-4"
+      lg={6}
+      md={6}
+      noGutters={false}
+      xs={1}
+    >
+      <Col>
+        <button
+          onClick={[Function]}
+          value="Submit"
+          variant="secondary"
+        />
+      </Col>
+    </Row>
+  </Container>
+</div>
+`;

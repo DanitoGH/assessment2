@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<Card
+  body={false}
+  style={
+    Object {
+      "width": "15rem",
+    }
+  }
+>
+  <CardBody
+    className="bg-secondary  text-white"
+    style={
+      Object {
+        "padding": "0.7rem",
+      }
+    }
+  >
+    <CardHeader
+      style={
+        Object {
+          "padding": "0.4rem",
+        }
+      }
+    >
+      <Checkbox
+        label="Room undefined"
+      />
+    </CardHeader>
+    <Container
+      fluid={false}
+    >
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <FormLabel
+            className="mt-2"
+            column={false}
+            srOnly={false}
+          >
+            Adults (18+)
+          </FormLabel>
+          <Dropdown
+            dropdownCategory="Adults"
+            options={
+              Array [
+                Object {
+                  "label": 1,
+                  "value": 1,
+                },
+                Object {
+                  "label": 2,
+                  "value": 2,
+                },
+              ]
+            }
+          />
+        </Col>
+        <Col>
+          <FormLabel
+            className="mt-2"
+            column={false}
+            srOnly={false}
+          >
+            Children (0-17)
+          </FormLabel>
+          <Dropdown
+            dropdownCategory="Children"
+            options={
+              Array [
+                Object {
+                  "label": 0,
+                  "value": 0,
+                },
+                Object {
+                  "label": 1,
+                  "value": 1,
+                },
+                Object {
+                  "label": 2,
+                  "value": 2,
+                },
+              ]
+            }
+          />
+        </Col>
+      </Row>
+    </Container>
+  </CardBody>
+</Card>
+`;
