@@ -36,7 +36,6 @@ function App() {
   // Runs once to check for any saved data
   useEffect(() => {
    if(roomsData !== null){
-
      // Destructure rooms data object
       const { room2Checked, room3Checked, room4Checked, 
               room2AdultValue, room3AdultValue , room4AdultValue,
